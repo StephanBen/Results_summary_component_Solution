@@ -205,3 +205,9 @@ a:hover,
 a:focus {
     background: hsl(224, 30%, 27%);
 }
+
+/* Adding H1 Off Screen */
+h1 {
+    position: absolute;
+    left: -10000px;
+}
